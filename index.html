@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Gallery</title>
+  </head>
+  <body>
+    <h1>Latihan Membuat Gallery</h1>
+    <div class="container">
+      <ul class="gallery">
+        <li>
+          <a href="#spongbob">
+            <img class="thumb" src="img/full/spongbob.jpeg" alt="spongbob" />
+            <span>Spongbob</span>
+          </a>
+          <div id="spongbob" class="overlay">
+            <a href="#close" class="close">X {Close}</a>
+            <a href="#patrick" class="prev"> < </a>
+            <img class="full" src="img/full/spongbob.jpeg" alt="spongbob" />
+            <a href="#squidward" class="next"> > </a>
+          </div>
+        </li>
+        <li>
+          <a href="#squidward">
+            <img class="thumb" src="img/full/squidword.png" alt="squidward" />
+            <span>Squidward</span>
+          </a>
+          <div id="squidward" class="overlay">
+            <a href="#close" class="close">X {Close}</a>
+            <a href="#spongbob" class="prev"> < </a>
+            <img class="full" src="img/full/squidword.png" alt="squidward" />
+            <a href="#patrick" class="next"> > </a>
+          </div>
+        </li>
+        <li>
+          <a href="#patrick">
+            <img class="thumb" src="img/full/patrick.png" alt="patrick" />
+            <span>Patrick</span>
+            <div id="patrick" class="overlay">
+              <a href="#close" class="close">X {Close}</a>
+              <a href="#squidward" class="prev"> < </a>
+              <img class="full" src="img/full/patrick.png" alt="patrick" />
+              <a href="#spongbob" class="next"> > </a>
+            </div>
+          </a>
+        </li>
+        <div class="clear"></div>
+      </ul>
+    </div>
+  </body>
+</html>
